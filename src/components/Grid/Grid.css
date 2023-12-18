@@ -1,0 +1,32 @@
+.grid {
+  display: flex;
+  height: 460px;
+  width: 430px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px #00ffff;
+}
+
+.turn-highlight1,
+.turn-highlight2 {
+  color: black;
+  text-align: center;
+  margin-top: -3px;
+}
+.turn-highlight1 {
+  position: relative;
+  top: 40px;
+}
+.reset {
+  position: relative;
+  top: 550px;
+  left: 170px;
+  background-color: black;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 6px;
+}
